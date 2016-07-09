@@ -26,7 +26,7 @@ This attribute can be used in Aurelia to add Ladda functionality to an element. 
 `<button ladda-command="command.bind: doSomething" type="button" class="btn btn-primary ladda-button" data-style="zoom-out">Click me</button>`
 
 4. Add the ladda-command attribute and bind it to a function that should be called when the button is clicked.  
-*This function **must** return a promise*
+**This function must return a promise**
 `ladda-command="command.bind: doSomething"`
 
 ## Notes ##

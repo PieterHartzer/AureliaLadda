@@ -1,4 +1,4 @@
-import {customAttribute, inject, bindingMode, bindable} from 'aurelia-framework';
+import {customAttribute, inject, bindable} from 'aurelia-framework';
 import Ladda from 'ladda';
 
 @inject(Element)

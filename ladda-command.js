@@ -1,5 +1,5 @@
 import {customAttribute, inject, bindingMode, bindable} from 'aurelia-framework';
-import {Spinner} from 'spin';
+import 'spin';
 import Ladda from 'ladda';
 
 @inject(Element)
